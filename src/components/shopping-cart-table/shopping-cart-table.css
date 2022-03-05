@@ -1,0 +1,9 @@
+.shopping-cart-table .total {
+    text-align: right;
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.shopping-cart-table button:not(:last-child) {
+    margin-right: 5px;
+}

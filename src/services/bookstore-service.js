@@ -20,9 +20,10 @@ export class BookstoreService extends Component {
     ];
 
     getBooks() {
-        return new Promise((resolve) => {
+        return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(this.data)
+                reject(new Error('Что-то пошло не так, ыы...'));
             }, 700);
         })
     }

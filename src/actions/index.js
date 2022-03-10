@@ -1,6 +1,6 @@
 const booksRequested = () => {
     return {
-        type: 'FETCH_BOOKS_REQUESTED'
+        type: 'FETCH_BOOKS_REQUEST'
     }
 };
 
